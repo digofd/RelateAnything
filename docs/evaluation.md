@@ -135,6 +135,13 @@ Other entry points:
 | `benchmark/aggregate.py`, `benchmark/overall_score.py` | the benchmark table and the OVS composite |
 | `benchmark/release_gate.py` | the pre-registered ship/no-ship gate |
 | `benchmark/ovsgtr/` | the OvSGTR baseline adapter (runs in its own venv, scored by our evaluator) |
+| `benchmark/vlm/` | Table 5 Qwen free-text runner, original prompt/parser, A3 map builder and CPU scorer |
+
+To reproduce the Qwen3-VL free-text comparison, follow
+[`benchmark/vlm/README.md`](../benchmark/vlm/README.md). It documents generation-order
+ranking, matching before graph-constrained pair selection, and the original
+Table 5 threshold of **0.60**. Generate your own predictions, build their
+predicate match sets, and evaluate them with the supplied scripts.
 
 ## `--graph_constraint` is not optional
 

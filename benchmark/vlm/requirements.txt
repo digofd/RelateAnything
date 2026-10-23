@@ -1,0 +1,6 @@
+# Separate environment for generation; avoid resolving this against the main
+# relation-model training environment. This is the vLLM version recorded in the
+# repository's original requirements-vllm.txt, not a recovered per-run lockfile.
+vllm==0.22.0
+Pillow
+numpy

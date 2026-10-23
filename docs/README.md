@@ -20,6 +20,7 @@ makes sense on a first read.
 | [Architecture](architecture.md) | you want to know what happens between pixels and triplets |
 | [Data](data.md) | you are adding a dataset, building a pack, or wondering what RA-4M contains |
 | [Evaluation](evaluation.md) | you are reporting a number, or comparing against another method |
+| [Qwen free-text evaluation](../benchmark/vlm/README.md) | reproducing the Table 5 Qwen baseline prompts, parsing and scoring |
 | [Paper results](results.md) | detailed model comparisons, transfer results, and benchmark rationale |
 | [Pitfalls](pitfalls.md) | **read before you trust a number.** Every entry here has produced a plausible wrong result at least once |
 
